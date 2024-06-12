@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    background: #e04700;
+    
+    
+    width: 100%;
+    padding: 1.5em 0;
+    display: flex;
+}
+
+nav * {
+    color: white;
+}
+
+nav .logo {
+    width: 50%;
+}
+
+nav .nav-items {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 1s;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+    transition: 1s;
+}
+
+main {
+    height: 80%;
+    background: linear-gradient(180deg, #e04700 0%, #f87e37 100%);
+}
+
+main * {
+    color: white;
+}
+
+main .hero {
+    width: 75%;
+    margin: auto;
+}
+
+main .hero h1 {
+    font-size: 8em;
+}
+
+hr {
+    border-top:3px solid black; 
+    border-bottom:3px solid black; 
+    height:40px; 
+    background:url("./indigenousborderart.jpg") 0 0; 
+    background-position: center;
+}
