@@ -62,13 +62,19 @@ main .hero {
 }
 
 main .hero h1 {
-    font-size: 8em;
+    font-size: 7em;
 }
 
 hr {
-    border-top:3px solid black; 
-    border-bottom:3px solid black; 
+    border-top:3px solid #262626; 
+    border-bottom:3px solid #262626; 
     height:40px; 
     background:url("./indigenousborderart.jpg") 0 0; 
     background-position: center;
+}
+
+#about {
+    color: white;
+    background: #20242d;
+    padding: 2em 0;
 }
