@@ -9,7 +9,10 @@
 
 html, body {
     width: 100vw;
+    max-width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -26,26 +29,44 @@ nav * {
 }
 
 nav .logo {
-    width: 50%;
+    width: 40%;
 }
 
 nav .nav-items {
     width: 40%;
     display: flex;
     justify-content: space-between;
+
     align-items: center;
 }
-
-a {
+.a-btn {
     text-decoration: none;
+    padding: .5em 1em;
+    background: white;
+    color: #e04700;
+    border: 2px solid transparent;
+    border-radius: 0.5em;
+    transition: 1s;
+}
+
+.a-btn {
+    border: 2px solid #e04700;;
+    transition: 1s;
+}
+
+nav a {
+    text-decoration: none;
+    padding: .5em 1em;
     border-bottom: 2px solid transparent;
     transition: 1s;
 }
 
-a:hover {
+nav a:hover {
     border-bottom: 2px solid white;
     transition: 1s;
 }
+
+
 
 main {
     height: 80%;
@@ -73,8 +94,50 @@ hr {
     background-position: center;
 }
 
-#about {
+#essay {
     color: white;
     background: #20242d;
-    padding: 2em 0;
+    padding: 4em 0;
+}
+
+#debate {
+    background: #f87e37;
+    padding: 4em 0;
+    color: white;
+    display: flex;
+    justify-content: end;
+    /*text-align: right;*/
+}
+
+#podcast {
+    color: white;
+    background: #20242d;
+    padding: 4em 0;
+    display: flex;
+    justify-content: end;
+}
+
+#collage {
+    background: #f87e37;
+    padding: 4em 0;
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
+#letter {
+    background: #20242d;
+    padding: 4em 0;
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
+
+iframe {
+    width: 75%;
+    background: white;
+    border-radius: 1em;
+    height: 400px;
+    margin-top: 2em;
 }
